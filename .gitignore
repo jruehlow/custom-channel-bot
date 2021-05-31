@@ -1,0 +1,24 @@
+# project files
+config.json
+
+# gradle
+/build/
+/.gradle/
+/out/
+gradle.properties
+
+# eclipse files
+.classpath
+.project
+.settings/
+/bin/
+
+# netbeans files
+/.nb-gradle&
+*.nb.gradle-properties
+
+# intellij files
+/.idea/
+*.iml
+*.ipr
+*.iws
