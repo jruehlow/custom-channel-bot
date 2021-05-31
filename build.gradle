@@ -1,0 +1,43 @@
+plugins {
+    id 'java'
+    id 'idea'
+}
+
+group 'custom-channel-bot'
+version '1.0.0'
+
+[compileJava, compileTestJava]*.options*.encoding = 'UTF-8'
+
+jar {
+    from {
+        (configurations.runtime).collect {
+            it.isDirectory() ? it : zipTree(it)
+        }
+        configurations
+                .compile
+                .findAll { !it.name.endsWith('pom') }
+                .collect { it.isDirectory() ? it : zipTree(it) }
+    }
+    manifest {
+        attributes 'Main-Class': 'kaufisch.customchannel.main.Main'
+    }
+}
+
+repositories {
+    mavenCentral()
+    maven {
+        name 'm2-dv8tion'
+        url 'https://m2.dv8tion.net/releases'
+    }
+}
+
+dependencies {
+    // GSON
+    compile 'com.google.code.gson:gson:2.8.7'
+    //JDA
+    compile 'net.dv8tion:JDA:4.2.1_266'
+    // Logback
+    compile group: 'ch.qos.logback', name: 'logback-classic', version: '1.2.3'
+    // MYSQL
+    compile group: 'mysql', name: 'mysql-connector-java', version: '8.0.23'
+}

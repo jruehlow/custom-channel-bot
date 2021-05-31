@@ -1,0 +1,97 @@
+{
+  "Discord": {
+    "TOKEN": ""
+  },
+  "Database": {
+    "user": "",
+    "password": "",
+    "host": "localhost",
+    "database": ""
+  },
+  "Languages": {
+    "English": {
+      "infoMessage": {
+        "desc": "Create a new channel: [Create Channel]",
+        "name": "Name your channel",
+        "size": "Change channel size",
+        "ban": "Ban sb. from your channel",
+        "unban": "Unban sb. from your channel who is banned",
+        "leader": "Change the leadership of your channel",
+        "open": "Make a private channel public",
+        "close": "Make your channel private -> You can decide who can join",
+        "invite": "Invite users to your private channel"
+      },
+      "newLeaderMessage": {
+        "desc": "is now the new channel leader"
+      },
+      "errors": {
+        "channelSize": "Invalid channel size!",
+        "userNotFound": "User not found!",
+        "waitToCreateTitle": "**Please wait**",
+        "waitToCreate": "You have to wait 60 seconds before you can create a channel again!"
+      },
+      "prefix": {
+        "info": "To change the prefix use: ``%sprefix newPrefix``. The prefix can't be longer than 3 characters.",
+        "success": "The prefix was successfully changed to:"
+      },
+      "language": {
+        "success": "You successfully changed language to English!",
+        "info-desc": "You can change the language of the bot by using the command ``%slang id``."
+      },
+      "channelNames": {
+        "category": "Private Talks",
+        "textChannel": "channel-manager",
+        "voiceChannel": "Create Channel"
+      },
+      "help": {
+        "desc": "There are the following admin commands:",
+        "prefix": "This changes the prefix. This can't be longer than 3 characters.",
+        "recreate": "If you accidentally deleted a channel of the bot, you can regenerate them with this command.",
+        "lang": "This changes the language of the bot. For more information type: ``%slang``."
+      },
+      "footer": "Made with <3 by Kaufisch | >help"
+    },
+    "German": {
+      "infoMessage": {
+        "desc": "Erstelle zuerst einen Kanal: [Kanal Erstellen]",
+        "name": "Benenne deinen Kanal",
+        "size": "Ändere die Kanalgröße",
+        "ban": "Werfe jmd. aus dem Kanal",
+        "unban": "Erlaube jemanden gebanntes wieder in den Channel zu kommen",
+        "leader": "Übertrage die Kanalrechte",
+        "open": "Öffne einen Privaten Channel",
+        "close": "Channel wird Privat gestellt -> Du kannst entscheiden wer rein kann",
+        "invite": "Lade User in deinen Privaten Channel ein"
+      },
+      "newLeaderMessage": {
+          "desc": "ist nun der neue Channel-Leader"
+      },
+      "errors": {
+        "channelSize": "Ungültige Kanalgröße!",
+        "userNotFound": "User nicht gefunden!",
+        "waitToCreateTitle": "**Bitte warten**",
+        "waitToCreate": "Du musst 60 sekunden warten, bis du erneut einen Channel erstellen kannst!"
+      },
+      "prefix": {
+        "info": "Um den Prefix zu ändern benutze: ``%sprefix newPrefix``. Der Prefix darf nicht länger als 3 Buchstaben sein.",
+        "success": "Der Prefix wurde zu folgendem geändert:"
+      },
+      "language": {
+        "success": "Du hast die Sprache erfolgreich auf Deutsch umgestellt!",
+        "info-desc": "Du kannst die Sprache des Bots mit dem Command ``%slang id`` ändern."
+      },
+      "channelNames": {
+        "category": "Private Talks",
+        "textChannel": "kanalverwaltung",
+        "voiceChannel": "Kanal Erstellen"
+      },
+      "help": {
+        "desc": "Es gibt die folgenden Admin-Commands:",
+        "prefix": "Damit ändert man den Prefix. Dieser kann nicht länger als 3 Zeichen sein.",
+        "recreate": "Falls du einen Channel des Bots aus Versehen gelöscht hast, kannst du die Channel so neu generieren.",
+        "lang": "Dies ändert die Sprache des Bots. Für mehr informationen benutze den command: ``%slang``."
+      },
+      "footer": "Made with <3 by Kaufisch | >help"
+    }
+  }
+}
