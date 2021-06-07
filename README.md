@@ -20,5 +20,6 @@ Then you can use several commands to modify this channel.
 - `>prefix newPrefix` Change the prefix of the bot
 - `>lang id` Change the language of the bot
     - English: 1 | German: 2
-
+## Setup
+For installation instructions see the [wiki](https://github.com/Kaufisch/custom-channel-bot/wiki/Installation). 
  
